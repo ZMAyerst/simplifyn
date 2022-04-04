@@ -323,3 +323,9 @@ h1 {
      display: block;
 }
 
+.navbar-toggler.close {
+    display:inline;
+}
+.navbar-toggler.collapsed.close, .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+    display:none;
+}
